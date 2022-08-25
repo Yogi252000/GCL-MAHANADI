@@ -4,18 +4,17 @@ import plotly.graph_objects as go
 import streamlit as st
 from plotly.subplots import make_subplots
 from streamlit_option_menu import option_menu
-from fpdf import FPDF
-import base64
-from tempfile import NamedTemporaryFile
+
 
 
 st.set_page_config(page_title='GCL Mahanadi',layout="wide",page_icon='🚢')
+
 
 st.header("FLUYT VESSEL")
 hide_st_style = """
          <style>
          footer {visibility : hidden;}
-         header {visibility : hidden;}
+        
          </style>
          """
 
@@ -93,7 +92,7 @@ if selected == "Laden":
     fig.update_yaxes(visible=True,showticklabels=True,title_font=dict(size=12))
     st.plotly_chart(fig, use_container_width=True)
     st.write('Laden data')
-    first = pd.read_csv("Voyage.csv")
+    first = pd.read_csv("voyage.csv")
     st.write(first)
 
 if selected == "Ballast":
@@ -199,7 +198,7 @@ if selected == "Laden-Speed & Con":
     fig2.update_yaxes(range=[0, 60])
     fig2.update_yaxes(visible=True, showticklabels=True, title_font=dict(size=12))
     st.plotly_chart(fig2, use_container_width=True)
-    data = pd.read_csv("Laden.csv")
+    data = pd.read_csv("laden.csv")
     st.write(data)
 
 
@@ -253,7 +252,7 @@ if selected == "Ballast-Speed & con":
     fig1.update_yaxes(range=[0, 60])
     fig1.update_yaxes(visible=True, showticklabels=True, title_font=dict(size=12))
     st.plotly_chart(fig1, use_container_width=True)
-    data = pd.read_csv("Ballast.csv")
+    data = pd.read_csv("ballast.csv")
     st.write(data)
 
 
