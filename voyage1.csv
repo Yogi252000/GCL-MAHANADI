@@ -1,0 +1,14 @@
+Voyage No.,Departure Port,Arrival Port,Instructed Speed,Avg Speed (Voyage),Avg Speed (in Good weather),Avg FO cons / day,CP Fuel cons limit
+01 B,Colombo,Vizag,11,11.8,11.9,36.8,32
+02 B,Hazira,Mina Saqr,11,10.7,11.1,36.4,32
+03 B,Hazira,Vizag,11,10.7,11.3,36.5,32
+04 B,Hazira,Vizag,11,11.08,11.01,35.1,32
+05 B,Hazira,Vizag,11,11.06,11.62,34.9,32
+06 B,Hazira,Vizag,11,10.57,11.91,34.8,32
+07 B,Hazira,Vizag,11,10.41,10.97,30.5,32
+08B,Hazira,Vizag,11,10.68,10.6,33.8,32
+09B,Hazira,Hambantota,11,11.6,11.8,29.2,36
+10B,Hazira,Hambantota,11,11.4,11.4,27,32
+11 B,Hazira,Kandla,11,10.23,10.41,27.48,32
+12B,Colombo,Vizag,11,11.47,11.49,28.48,32
+13B,HAZIRA - INDIA,DUBAI DRY DOCKS - UAE,11,8.3,10.97,32.24,32
